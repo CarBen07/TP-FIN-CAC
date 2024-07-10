@@ -14,11 +14,12 @@ submitButton.addEventListener("click", ()=>{
         "http://localhost:5000/api/client/create/",
         "POST",
         (data) => {
-            document.querySelector("#Formulario").reset();
-            //window.location.replace("../index.html#TareasPendientes");
+            document.querySelector("#contactForm").reset();
+            window.location.replace("../pages/clientes.html");
         },
         data_post
     );
+    
     }
 );
 
